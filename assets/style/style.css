@@ -23,6 +23,27 @@ h1 {
 
 }
 
+h3{
+color: rgb(86, 85, 85);
+}
+
+
+li{
+
+list-style-type: none;
+}
+
+ul li::before{
+content: ' ✓ ';
+border-color: green;
+border-style: solid;
+border-radius: 50%;
+padding: 2px;
+color: green;
+
+}
+
+
 /* header */
 
 header {
@@ -49,7 +70,7 @@ header {
 }
 
 .container{
-padding-left: 50px;
+  padding-left: 50px;
 }
 
 
@@ -82,8 +103,16 @@ padding-left: 50px;
   background-color: white;
   margin-left: 400px;
   margin-top: 5px;
+  padding-left: 50px;
 }
 
+.tag{
+padding: 5px;
+width: 100px;
+border-radius: 30%;
+background-color: #46adf1;
+color: white;
+}
 
 
 /* footer */
