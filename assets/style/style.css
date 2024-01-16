@@ -23,14 +23,23 @@ h1 {
 
 }
 
-h3{
+h2{
 color: rgb(86, 85, 85);
+padding-left: 30px;
+font-size: 30px;
+
+}
+
+h2::before{
+content: ' ∇'; 
+
 }
 
 
 li{
-
+padding-left: 25px;
 list-style-type: none;
+font-size: 20px;
 }
 
 ul li::before{
@@ -38,7 +47,7 @@ content: ' ✓ ';
 border-color: green;
 border-style: solid;
 border-radius: 50%;
-padding: 2px;
+padding: 1px;
 color: green;
 
 }
@@ -103,16 +112,39 @@ header {
   background-color: white;
   margin-left: 400px;
   margin-top: 5px;
-  padding-left: 50px;
 }
 
 .tag{
 padding: 5px;
 width: 100px;
 border-radius: 30%;
-background-color: #46adf1;
 color: white;
 }
 
+.blu{
+background-color: #46adf1;
+}
+.viola{
+background-color: #9c72e4;
+}
+.verde{
+background-color: ##64C0A9;
+}
+.arancio{
+background-color: #F29E33;
+}
+.rosa{
+background-color: #D763A1;
+}
+.giallo{
+background-color: #B0C925;
+}
+
+.x::before{
+  content:'	✕' ;
+  border-color: red;
+  color: red;
+
+}
 
 /* footer */
