@@ -1,29 +1,89 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-max-width: 1200px;
+body {
+  max-width: 2000px;
+  background-color: #f6f8f9;
 }
 
-h1{
-display: inline-block;
-font-size:90px;
+header{
+ 
+}
+
+main {
+  
+}
+
+h1 {
+  display: inline-block;
+  font-size: 80px;
+
 }
 
 /* header */
 
-.logo img{
-width: 160px;
-padding-left: 50px;
-padding-top: 50px;
+header {
+  width: 3000px;
+  padding-left: 40px;
+  padding-top: 40px;
+  background-color: white;
+}
 
+.logo img {
+  width: 100px;
+  vertical-align: middle;
 }
 
 
 /* main */
+
+.page{
+  width: 1800px;
+  padding: 20px;
+  background-color: white;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.container{
+padding-left: 50px;
+}
+
+
+.container .button1 {
+  display: inline-block;
+  width: 100px;
+  background-color: #46adf1;
+  padding: 10px;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container .button2 {
+  display: inline-block;
+  width: 200px;
+  border-color: lightgray;
+  padding: 10px;
+  border-radius: 10%;
+  color: lightgray;
+  text-align: center;
+  font-size: 20px;
+  border-style: solid;
+}
+
+.lista{
+  width: 1800px;
+  padding: 20px;
+  background-color: white;
+  margin-left: 400px;
+  margin-top: 5px;
+}
+
 
 
 /* footer */
