@@ -1,0 +1,29 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+max-width: 1200px;
+}
+
+h1{
+display: inline-block;
+font-size:90px;
+}
+
+/* header */
+
+.logo img{
+width: 160px;
+padding-left: 50px;
+padding-top: 50px;
+
+}
+
+
+/* main */
+
+
+/* footer */
