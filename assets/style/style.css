@@ -29,6 +29,7 @@ h2 {
 h2::before {
   content: ' \25BE';
   padding-right: 5px;
+  ma
 
 }
 
@@ -41,11 +42,13 @@ li {
 
 ul li::before {
   content: ' ✓ ';
-  border-color: green;
+  border-color:#6AC4AE;
   border-style: solid;
   border-radius: 50%;
   padding: 1px;
-  color: green;
+  color: #6AC4AE;
+  margin-right: 5px;
+  font-size: 35px;
 
 }
 
@@ -83,10 +86,10 @@ header {
 
 .container .button1 {
   display: inline-block;
-  width: 200px;
+  width: 160px;
   background-color: #46adf1;
   padding: 10px;
-  border-radius: 10%;
+  border-radius: 9px;
   color: white;
   text-align: center;
   font-size: 20px;
@@ -94,10 +97,10 @@ header {
 
 .container .button2 {
   display: inline-block;
-  width: 200px;
+  width: 180px;
   border-color: lightgray;
-  padding: 10px;
-  border-radius: 10%;
+  padding: 9px;
+  border-radius: 9px;
   color: lightgray;
   text-align: center;
   font-size: 20px;
@@ -115,10 +118,11 @@ header {
 }
 
 .tag {
-  padding: 10px;
+  padding: 9px;
   width: 100px;
-  border-radius: 30%;
+  border-radius: 45px;
   color: white;
+  font-size: 17px;
 }
 
 .blu {
@@ -146,9 +150,10 @@ header {
 }
 
 .x::before {
-  content: '	✕';
-  border-color: red;
-  color: red;
+  content: '\2573';
+  border-color:#EC544B;
+  color:#EC544B;
+  font-size: 35px;
 
 }
 
